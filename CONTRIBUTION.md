@@ -16,28 +16,9 @@ Thank you for your interest in contributing to the Drone and Photography/Videogr
 ## Getting Started
 
 ### Fork the Repository
+
 1. Fork this repository to your own GitHub account by clicking the "Fork" button at the top of this repository's page.
 2. Clone the forked repository to your local machine:
    ```bash
    git clone https://github.com/ngemuantony/drone-photography-services.git
    cd drone-photography-services
-
-## Setting Up the Environment
-### Install all necessary dependencies:
-  ```bash
-    npm install
-### Set up your environment variables by creating a .env file in the root directory:
-```bash
-  DATABASE_URI=mongodb://localhost:27017/yourdb
-  REDIS_URI=redis://localhost:6379
-  JWT_SECRET=your_jwt_secret
-  PAYMENT_GATEWAY_KEY=your_payment_gateway_key
-  Start the development server:
-
-```bash
-  npm run dev
-### Ensure that Redis is running locally or that you are using a cloud-based Redis service:
-
-```bash
-  redis-server
-
